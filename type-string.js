@@ -35,13 +35,21 @@ const input1 = "Belo Horizonte";
 
 const inputMinusculo = input.toLowerCase();
 
-console.log(cidade === inputMinusculo); // true
+//console.log(cidade === inputMinusculo); // true
 
-console.log('ALFABETO'.toLowerCase());
-console.log('cidade'.toUpperCase('en-US'));
+//console.log('ALFABETO'.toLowerCase());
+//console.log('cidade'.toUpperCase('en-US'));
 
 const city = 'instabul';
-console.log(city.toLocaleUpperCase('PT-BR'));
+//console.log(city.toLocaleUpperCase('PT-BR'));
 
 const senha = "minhaSenha123";
-console.log(senha.length);
+//console.log(senha.length);// mostra quantos caracteres tem na amarzenada na variavel, muito util para senhas
+//Uma propriedade lengthde um objeto Stringcontém o cumprimento da string. lengthé uma propriedade read-only(somente leitura) de instâncias de string.
+
+const minhaVar = 1;
+const MinhaVar = "texto";
+const minhavar = "3";
+const MINHAVAR = 2;
+
+console.log(minhaVar, MinhaVar, minhavar, MINHAVAR)
