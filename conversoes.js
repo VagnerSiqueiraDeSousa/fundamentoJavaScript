@@ -50,6 +50,7 @@ console.log(Number(usuarioConectado1));
 usuarioConectado1 = true;
 console.log(Number(usuarioConectado1));
 
+// agora teremos a conversão de true (verdadeiro) para o número 1.
 
 
 
