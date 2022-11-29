@@ -1,3 +1,4 @@
+//declaração de function
 function apresentar(nome){
     return `meu nome é ${nome}`;
 }
@@ -16,4 +17,5 @@ const somaNumerosPequenos = (num1, num2) =>{
     }else{
         return num1 = num2;
     }
+    //hosting: arrow function se comporta como expressao
 }
